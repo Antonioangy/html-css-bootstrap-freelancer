@@ -8,10 +8,6 @@ img{
     height: 400px;
 }
 
-.md{
-    display: none;
-}
-
 /* main  */
 .rosa{
     background-color: pink;
@@ -38,7 +34,14 @@ img{
     background-color: lightblue;
 }
 
-#about-us{
+#location{
     background-color: rgb(60, 111, 189);
     color: white;
+}
+
+#portfolio div[class^="col-"] {
+    height: 200px;
+    border: 3px solid tomato;
+    font-size: 50px;
+    text-align: center;
 }
