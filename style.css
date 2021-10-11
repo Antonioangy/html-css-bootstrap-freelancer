@@ -1,0 +1,44 @@
+.container{
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+
+img{
+    height: 400px;
+}
+
+.md{
+    display: none;
+}
+
+/* main  */
+.rosa{
+    background-color: pink;
+}
+.celeste{
+    background-color: powderblue;
+}
+.nero{
+    background-color: black;
+}
+.viola{
+    background-color: blueviolet;
+}
+.blu{
+    background-color: blue;
+}
+.grigio{
+    background-color: grey;
+}
+
+/* footer */
+
+#container-contact{
+    background-color: lightblue;
+}
+
+#about-us{
+    background-color: rgb(60, 111, 189);
+    color: white;
+}
