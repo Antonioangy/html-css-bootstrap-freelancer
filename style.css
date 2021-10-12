@@ -1,13 +1,12 @@
-.container{
-    background-color: orange;
-    
+[class*="col-"]>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .rightbar li {
     display: inline-block;
     list-style-type: none;
     float: right;
-    padding-left: 0.5rem;
 }
 
 
@@ -24,9 +23,11 @@ img{
     text-align: center;
 }
 
-.text{
-    padding: 20px;
-    text-align: center;
+.white{
+    color: white;
+}
+.black{
+    color: black;
 }
 
 
@@ -69,17 +70,43 @@ h2{
     text-align: center;
 }
 
+/* ABOUT US  */
+.aboutus{
+    background-color: #30BC9B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-about{
+    font-size: 50px;
+    text-align: center;
+}
+
+.text{
+    padding: 20px;
+    text-align: center;
+}
+.white-text {
+    color: white;
+}
+
+/* bottone download */
+.btn-download{ 
+    border: 1px solid white;
+    background-color: #30BC9B;
+    text-align: center;
+}
 
 /* footer */
 
 #container-contact{
     background-color: lightblue;
 }
-.aboutus{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: lightblue;
-}
+
+   
+
 #about-us{
     background-color: rgb(60, 111, 189);
     color: white;
