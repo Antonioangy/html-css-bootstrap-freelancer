@@ -2,14 +2,19 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+nav{
+    background-color:#2C3E50 ;
+}
 .rightbar li {
     display: inline-block;
     list-style-type: none;
     float: right;
+    margin: 10px;
 }
 
-
+#jumbo{
+    background-color: #30BC9B;
+}
 
 .icon-space{
     text-align: center;
@@ -52,8 +57,7 @@ h2{
     padding: 20px;
 }
 
-.text-about{
-    font-size: 50px;
+.text{
     text-align: center;
 }
 
@@ -61,9 +65,7 @@ h2{
     padding: 20px;
     text-align: center;
 }
-.white-text {
-    color: white;
-}
+
 
 /* bottone download */
 .btn-download{ 
@@ -73,14 +75,45 @@ h2{
 }
 
 /* footer */
+.left{
+    float: left;
+}
 
+#info{
+    background-color:#3A546D ;
+}
+
+.contact-me{
+    margin: 100px 200px;
+}
 #container-contact{
     background-color: lightblue;
 }
-
 
 #about-us{
     background-color: rgb(60, 111, 189);
     color: white;
 }
 
+a{
+    color: #30BC9B;
+}
+
+.left{
+    float: left;
+}
+
+.copyright{
+    background-color: rgb(16, 54, 104);
+    vertical-align: middle;
+}
+
+.icons-social{
+    text-align: center;
+}
+
+.social{
+    display: inline;
+    margin: 3%;
+ 
+}

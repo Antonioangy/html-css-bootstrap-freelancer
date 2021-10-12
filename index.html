@@ -14,26 +14,31 @@
     <header>
         <nav>
             <div class="container">
-                <h1>START BOOSTRAP</h1>
-                <ul class="rightbar">
-                    <li>PORTFOGLIO</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-                </ul>
-            </div>
+                <div class="row">
+                    <div class="col-xs-6 col-md-6 col-lg-6">
+                            <h1 class="white">START BOOSTRAP</h1>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6">        
+                        <ul class="rightbar white">
+                            <li>PORTFOGLIO</li>
+                            <li>ABOUT</li>
+                            <li>CONTACT</li>
+                        </ul>
+                    </div>
+                </div>
         </nav>
-        <div class="container">
+        <div class="container-fluid" id="jumbo">
             <div class="row w-100">
                 <div class="col-12">
                     <div class="icon-space">
                         <img src="img/avatar.svg" alt="avatar">
                     </div>
-                    <h1 class="text">Start BootStrap</h1>
+                    <h1 class="text white">Start BootStrap</h1>
                     <div id="stella">
-                        <i class="fa fa-star fa-2x"></i>
+                        <i class="fa fa-star fa-2x white"></i>
                     </div>
                     <div>
-                        <h5 class="text">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+                        <h5 class="text white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
                     </div>
                 </div>
             </div>
@@ -43,12 +48,10 @@
 
     <main>
 
-        <section class="container" >
+        <section class="container-fluid">
+            <h1 class="text">Portfolio</h1>
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text">Portfolio</h1>
-                </div>
-                <div id="stella">
+                <div id="stella"> <!-- stella è una classe -->
                     <i class="fa fa-star fa-2x"></i>
                 </div>
             </div>
@@ -77,70 +80,119 @@
         <!-- ABOUT US -->
         <div class="aboutus">
             <div class="container">
+                <h2 class="text-about white">ABOUT</h2>
+                
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="text-about white">ABOUT</h4>
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="custom-divider">
-                                <div id="stella">
-                                    <i class="fa fa-star fa-2x white"></i>
-                                </div>
+                        <div class="custom-divider">
+                            <div id="stella">
+                                <i class="fa fa-star fa-2x white"></i>
                             </div>
                         </div>
                     </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                      <p class="white-text">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                      <p class="white-text">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                    </div>
                 </div>
-
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <button type="button" class="btn btn-download white"><i class="fas fa-download"></i> Download</button>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                      <p class="white">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                      <p class="white">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
                     </div>
                 </div>
                 
+                <button type="button" class="btn btn-download white"><i class="fas fa-download"></i> Download</button>  
             </div>
         </div>
     </main>
     
     <footer>
         <!-- CONTACT  -->
-        <section class="container">
+        <div class=" contact-me text">
+            <h3 class="text-uppercase">Contact Me</h3>
+
             <div class="row">
-                <div class="col-xs-12"><h2>CONTACT ME</h2></div>
-                 <div id="stella">
+                <div class="col-xs-12 stella">
                     <i class="fa fa-star fa-2x"></i>
                 </div>
-                <div class="col-xs-12">NAME</div>
-                <div class="col-xs-12">EMAIL ADDRESS</div>
-                <div class="col-xs-12">PHONE NUMBER</div>
-                <div class="col-xs-12">MESSAGE</div>
-            </div> 
-        </section>
-
-        <!-- location -->
-        <section class="container" id="portfolio">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    LOCATION
-                    2215 John Daniel Drive Clark, 
-                    MO 54243
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">AROUND</div>
-                <div class="col-xs-12 col-md-6 col-lg-4">ABOUT</div>
             </div>
-        </section>
-        <section class="container">
-            <h5>copyright</h5>
-        </section>
+            <div class="container">
+                <div class="mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form">
+                        <div class="xs-form sm-form md-form mb-0">
+                            <label for="name" class="left">Name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+    
+                        <div class="xs-form sm-form md-form mb-0">
+                            <label for="email" class="left">Email Address </label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+    
+                        <div class="xs-form sm-form md-form mb-0">
+                            <label for="subject" class="left">Phone Number</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+    
+                        <div class="xs-form">
+                            <label for="message" class="left">Message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+        
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-download white left">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- location -->
+        <div class="container-fluid" id="info">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <h5 class="text white">LOCATION</h5>
+                    <p class="text white">2215 John Daniel Drive Clark, MO <br>54243</p>
+                </div>
+              
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <h5 class="text white">AROUND THE WEB</h5>
+                    <div class="icons-social">
+
+                        <div class="social white">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+
+                        <div class="social white">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+
+                        <div class="social white">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+
+                        <div class="social white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <h5 class="text white">ABOUT FREELANCER</h5>
+                    <p class="text white">Freelance is a free to use, open source Bootstrap theme creted by <a href="#">Start BoctStrap.</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="row">
+                <div class="col-xs-12 text white">
+                  <p>Copyright @ Your Website 2019</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
