@@ -1,47 +1,93 @@
 .container{
     background-color: orange;
-    margin-bottom: 20px;
+    
+}
+
+.rightbar li {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    padding-left: 0.5rem;
 }
 
 
+
+.icon-space{
+    text-align: center;
+}
 img{
     height: 400px;
+    
+}
+#stella{
+    margin: 10px;
+    text-align: center;
 }
 
+.text{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
 /* main  */
-.rosa{
-    background-color: pink;
+.casa{
+    background-image: url(img/cabin.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
 }
-.celeste{
-    background-color: powderblue;
+.torta{
+    background-image: url(img/cake.png);
+    background-size: cover;
+    background-position: center;
 }
-.nero{
-    background-color: black;
+.circo{
+    background-image: url(img/circus.png);
+    background-size: cover;
+    background-position: center;
 }
-.viola{
-    background-color: blueviolet;
+.pad{
+    background-image: url(img/game.png);
+    background-size: cover;
+    background-position: center;
 }
-.blu{
-    background-color: blue;
+.cassaforte{
+    background-image: url(img/safe.png);
+    background-size: cover;
+    background-position: center;
 }
-.grigio{
-    background-color: grey;
+.sottomarino{
+    background-image: url(img/submarine.png);
+    background-size: cover;
+    background-position: center;
 }
+
+h2{
+    text-align: center;
+}
+
 
 /* footer */
 
 #container-contact{
     background-color: lightblue;
 }
-
-#location{
+.aboutus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+#about-us{
     background-color: rgb(60, 111, 189);
     color: white;
 }
 
 #portfolio div[class^="col-"] {
-    height: 200px;
-    border: 3px solid tomato;
-    font-size: 50px;
+    height: 300px;
+    border: 10px solid white;
+    font-size: 20px;
     text-align: center;
 }
